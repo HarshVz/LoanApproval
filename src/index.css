@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+body{
+    font-family: 'Poppins';
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
